@@ -1,0 +1,8 @@
+ol{
+    list-style-type:upper-roman;
+    max-height : 300px;
+    width: 200px;
+    overflow-y: scroll;
+    /* Al poner el overflow x en visible no funciona si el y está en scroll y no hay suficiente espacio para una palabra.(Interpretación)*/
+    overflow-x: visible;
+}

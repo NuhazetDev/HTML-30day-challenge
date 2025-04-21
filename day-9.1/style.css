@@ -1,0 +1,19 @@
+.scroll-container{
+    background-image: url(images/pergamino.png);
+    background-size: cover;
+    height: 1600px;
+    max-width: 1200px;
+    display: block flex;
+}
+
+.prueba{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+}
+
+ol{
+    width:400px;
+    height: 400px;
+    overflow: auto;
+}
